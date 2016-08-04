@@ -1,0 +1,72 @@
+NodeSummit, San Francisco, CA, Wed 27 Jul 2016
+
+Node at NASA
+
+Collin Estes
+Director of Software Engineering
+MRI Technologies, Inc.
+NASA Prime Contractor
+@CollinEstes
+
+Leak in spacesuit helmet during spacewalk caused introduction of Node.js.
+EMU, extra-vehicular mobility issue.
+Astronaut started seeing water in helmet during spacewalk.
+Ground control asked if he could 'drink it' as a workaround.
+Aborting a spacewalk is very costly, a big decision.
+Flight director, who can say no to POTUS, has authority to decide.
+Decided to abort EVA, relayed via capcom, one voice to the astronaut.
+The other astronaut in the ISS had to pull in the EVA astronaut.
+Back on Earth, months later, investigation board for mishap.
+Fault was a quarter sized fan used to remove moisture.
+Water management is the hardest part of spacesuit development.
+Software was disjoint, siloed.
+Massive duplication of data.
+Access to everything is impossible.
+The solution: Node.js, Docker, RethinkDB.
+Open source.
+Move away from closed commercial tools.
+REST APIs, microservices, CI/CD pipelines.
+Comprehensive search engine.
+Needed a platform for microservices.
+Used Docker to standardize deployment, really helped.
+How are we using Node.js?
+Nothing groundbreaking.
+That is a benefit.
+Express for REST APIs.
+Mocha/Chai/Sinon for test.
+Node-OracleDB, MSSQL with node-mssql.
+RethinkDB for new stuff.
+Nightly Node ETL jobs run, save into RethinkDB.
+Use Node core when possible.
+For security, write our own modules.
+Can't wait two years to provide value.
+Could not interrupt day to day operations.
+So move some functions from monolith to new system.
+Make sure all integrations still work.
+Dismantle monolith.
+Multi-page apps with Express backends.
+Views written in Jade.
+Only needed plain Jane forms for scientists to use.
+Style assets by 18F government program.
+Builds common assets for lower cost.
+Rudimentary.
+Docker orchestration / deployment.
+Docker Remote API.
+Deploy direct from repo.
+slackbots.js
+Alfied workflows using Alfy, start 15 things, microservices.
+What is Node.js doing for us?
+Microservices based enterprise architecture.
+Rapid application development.
+Strong data integration.
+Scalability and standardization.
+Renewed feeling of innovation.
+Having fun.
+Scaling out what we do, not necessarily number of users.
+The spacesuit is the product, software is the stepchild.
+Next-gen spacesuits will use this.
+So not just solving legacy problems.
+Now, need data out of the actual engineering, not just the product.
+Stakes are too high.
+Open source will help put people on Mars.
+
