@@ -1,0 +1,73 @@
+NodeSummit, San Francisco, CA, Wed 27 Jul 2016
+
+Node.js at Disney
+
+Adam Eivy
+Developer Solutions Architect
+The Walt Disney Company
+https://twitter.com/antic
+http://adameivy.com
+
+We have a lot of acronyms, like NASA.
+We are a media/tech company.
+We use a lot of Node.
+Disney is huge, many brands.
+I'm on engineering services architecture team.
+A great developer experience is necessary to do the right thing.
+We don't mandate a lot of things.
+Build what you need, and share it.
+We see a lot of undisciplined updates released at npm.
+So we have an open source software approval committee.
+Developer submits Jira ticket requesting exact package version.
+Must use --save-exact version and npm shrinkwrap.
+updtr is a cool tool.
+nsp check (Node security).
+We found a surprising array of Node versions in use.
+Use nvm to switch between versions.
+.zshrc shell-fu
+Use npm auto checker.
+Modules used include request, cheerio, progress.
+We developed a Disney Node.js standards enforcer 'snoden'.
+Checks products for standards compliance.
+Disney runs snoden every day.
+Why do we use Node.js?
+Big on Java, PHP.
+But with Node:
+- JSON all the way down
+- no deserialization
+- speed of development
+- awesome command line apps
+- TPS (transactions per second): 350 vs 3K per instance
+We have 50 years of backend services, rides, air conditioning.
+New apps all the time.
+Augment a Java REST API.
+One month deadline.
+1 developer + Node.js = 8 days to complete.
+Using Hapi, Joi, and Lab.
+Massive performance improvement: 2K TPS (Node) versus 400 TPS (Java)
+Amazing speed of change due to JSON all the way down.
+Easier to make CLI user friendly in Node, yargs.
+Using Docker in production running Node apps.
+Using Node to bundle assets, turned out to be faster.
+Over 9000 git repos with Node in them, in just one enterprise repo out
+of several enterprise repos.
+Node.js is awesome.
+We will continue to fight for it.
+We use almost every technology in the world.
+Using Hapi and Express the most.
+Disney approval required to contribute to open source.
+Issues are across the board with open source, not just Node.
+Long history of tooling around Java.
+Has been requested to open source snoden.
+Will have much more on Disney GitHub in six months.
+Replacing Java with Node.
+Some folks resistant to change from Java.
+Performance test not enough to convince them.
+Serving the customer was the validating point, developer teams will follow.
+Node passed security team with flying colors.
+Recommendation is to lock down API, accept only what is expected, reduce
+attack surface.
+Internal build and delivery service based on Jenkins.
+Commit, run tests, deploy.
+That was pre-Docker.
+
