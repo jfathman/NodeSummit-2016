@@ -1,2 +1,2 @@
 # NodeSummit-2016
-NodeSummit 2016, 27 - 28 July 2016, San Francisco, California
+Notes from NodeSummit, 27 - 28 Jul 2016, San Francisco, CA.
