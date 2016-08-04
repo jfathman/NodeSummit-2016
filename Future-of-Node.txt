@@ -1,0 +1,90 @@
+NodeSummit, San Francisco, CA, Wed 27 Jul 2016
+
+The Future of Node.js
+
+Rod Vagg
+Chief Node Officer, NodeSource
+Member of Node.js TSC (Technical Steering Committee)
+Member of Node.js CTC (Core Technical Committee)
+TSC representative to Node Foundation board.
+@rvagg
+
+Future of Node.
+Not as straightforward as it sounds.
+Operates according to open governance.
+Those who do the work get to guide the project.
+Not BDFL (benevolent dictator for life) led, guided by stakeholders.
+Open governance doesn't do roadmaps.
+Goes where most active developers take it.
+Relies on group values to maintain stability.
+Emergent values.
+Shape the future by investing in the project.
+Regularly onboarding new people.
+The values of Node.js, my take on it ...
+Small and focused core, vibrant ecosystem.
+Performance.
+Stability, reliability, predictability .. maturing progress of Node.
+Progress and relevance, used to things changing, advancing.
+Inclusion, globally diverse.
+Ongoing challenge to improve.
+Future priorities for Node ...
+Stability.
+Security.
+Engaging with future JavaScript.
+HTTP.
+Exploration of threaded workloads.
+Insight, look into Node processes.
+Node.js everywhere.
+Node.js LTS release cycle: unstable, current, LTS.
+Active LTS and maintenance.
+What about non-LTS?
+Node v6 current is not as stable as we'd like.
+Still too many breakages, regressions.
+We're still learning and refining.
+API and ABI stability.
+V8 upgrade breaks modules, need recompiles.
+Future should see more rapid upgrades.
+Improving security of core and ecosystem.
+Adhere to security policies.
+Security service providers.
+JavaScript and TC39.
+Tension between Node and TC39.
+Node does not have a seat on TC39.
+Bradley Farias of GoDaddy representing Node.js on TC39.
+Some TC39 member companies shifting priorities to Node.
+Finding ways to accommodate Promises in core.
+Some companies blacklist Promises from their stacks, too hard to debug.
+Tail call optimization.
+Could impact debugability and post-mortem.
+Node.js needs to engage and champion server-side JavaScript.
+Domain API widely considered a failure.
+So, language enhancement proposal: Zones.
+Node needs to participate in discussion.
+HTTP has been source of security issues for Node.js.
+Improved spec-compliance is coming.
+Written into core, or supplied as separate library.
+HTTP/2
+Doesn't map cleanly to HTTP/1.x.
+Introduces completely new capabilities.
+Stateful connections over time.
+Lots of new surface area for security concerns.
+Most clients require TLS, but performance issues in Node core.
+Async insight.
+Debugging, tracing, inspection.
+What is my application doing?
+Where am I?
+V8_inspector protocol for new style debugging.
+AsyncWrap for inspecting event loop.
+Low level: mdb, llnode, perf, DTrace.
+Threads?  Workers?
+Ben Noordhuis working on key pieces.
+Any actual performance improvements?
+Costs versus benefits to be determined.
+Node.js everywhere.
+Increased spread across platforms, architectures, operating systems.
+IoT, server, desktop.
+electron.io
+i18n increasingly important worldwide.
+
+
+
