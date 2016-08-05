@@ -1,0 +1,61 @@
+NodeSummit, San Francisco, CA, Wed 27 Jul 2016
+
+Emerging Web Application Architectures Using Java and Node.js
+
+Chris Bailey
+Runtime Technologies Developer, IBM
+Using Node, Java, Swift.
+Contributes to open source.
+@chris__bailey
+
+In 2005, everything was three tier web apps.
+HTTP, load balancer, Java, database.
+Wrapped in clustering for scalability.
+Invariably written in Java.
+Then started looking at richer web sites.
+JavaScript is ubiquitous.
+Won't be doing that with Java.
+Lots of people have existing Java technologies.
+But need richer web apps.
+Node.js.
+300K packages available.
+Java has half the packages, rate of growth is much lower.
+On average, can write 45% less code in Node than Java.
+Write apps significantly faster in Node.
+Java has scalability using threads.
+Each thread consumes memory, but is relatively idle.
+Build highly concurrent apps in Node more easily.
+Pre-render page on server with Node.
+So is there any advantage to using Java anymore?
+Why would you still use Java?
+Java is much faster if no I/O.
+Better at number crunching.
+Highly optimized.
+Java designed for this for a long time.
+With Java, types are known, so can add with single instruction.
+JavaScript must determine type, that takes cycles.
+TechEmpower benchmarks.
+JSON serialization, Java faster.
+Single query, Java slight advantage.
+Data updates, Node faster.
+But this assumes Java running in asynch model, sync not so great.
+To build best possible app, select best language for task.
+Services organized around capabilities.
+API support in Node is better than any other language.
+Use Java for computational tasks.
+Use Node for I/O bound tasks.
+Use Node for isomorphic apps.
+Use Java for transactional updates.
+Node used for highly I/O bound, highly scalable apps.
+Put Node and Java together.
+Reliable transaction processors.
+Emerging architectures.
+Use Node to add REST APIs to existing technologies.
+Elastic search, written in Java.
+Go is a reasonable replacement for Java.
+Old, deploy in months, five year life.
+Now, deploy in days, life in months.
+From Forrester, four tiers: client, delivery, aggregation, services.
+IBM API Connect is a Node service.
+Retail customer, spike in sales if can deploy in hours in response to social media.
+Capitalize on social media.
