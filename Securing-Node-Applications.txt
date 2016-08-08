@@ -1,0 +1,66 @@
+NodeSummit, San Francisco, CA, Wed 27 Jul 2016
+
+Securing Node.js Applications
+
+Gergely Nemeth, CEO, Rising Stack
+@nthgergo
+
+Adam Baldwin, Founder, Node Security
+@adam_baldwin
+
+Guy Podjarny, Co-Founder/CEO, Snyk
+@guypod
+
+Sabon Thomas, VP Engineering, Codiscope
+
+Security is about predictability, and maintaining that.
+All about trust.
+Security is everybody's job.
+Developers have first responsibility.
+Should be designated role, for security.
+Proper gates, traceability.
+Culture shift can't happen overnight.
+Take one step at a time.
+Automate as much as you can.
+Ecosystem is greatest exposure.
+Node Foundation, core team more responsive to security issues.
+Security is a high priority.
+Security SLA of Node is superior.
+24 hour fix, 5 day embargo.
+Foundation does a good job of owning the security problem.
+Go from handful of owners in core, to hundreds of thousands of authors who own small piece.
+Each with different security policy.
+Need to communicate intent, README.md.
+But developers are not security experts.
+Rely on platform tooling.
+Need to lower the bar, what it takes to be secure.
+GitHub has a role, npm has a role.
+How to fix without discovering vulnerabilities.
+Collect advisories.
+Work with module authors.
+Big gap for newer developers.
+Codiscope analyzes code, finds vulnerabilities.
+Audit code.
+Code reviews.
+100% test coverage (giant myth, but good practice).
+Need creative human in the process.
+Secure yourself.
+Provide minimal permissions.
+We use sudo curl bash way too much.
+Propagation through npm.
+Myth, reach state of secure, never reach that ultimate.
+Determined attackers attack value.
+More attacks on npm than three years ago.
+Hard to understand who is using what.
+You are responsible for what you 'require'.
+Do you write software?  Less concerned about security.
+Do you operate software?  More concerned about security.
+You need to be more secure than the next guy.
+Be secure against automated attacks.
+Attacker will capitalize if you don't fix issues.
+Need strong input validation.
+This makes Hapi better than Express.
+Start documenting security concerns.
+Make it visible.
+Bring in an expert.
+
