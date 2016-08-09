@@ -1,0 +1,62 @@
+NodeSummit, San Francisco, CA, Wed 27 Jul 2016
+
+Node.js Community Panel
+
+Tracy Hinds, Education Community Manager, Node Foundation
+@HackyGoLucky
+
+Bryan Hughes, SDEII, Micrsoft, Node tooling, Johnny-Five
+@nebrius
+
+Dan Shaw, CTO, NodeSource
+@dshaw
+
+Rachel White, Front-End Engineer, IBM Watson
+@ohhoe
+
+Definitions of community.
+Fellowship with others, sharing of values.
+Joint ownership (or liability).
+All are invited.
+Get involved in Node.
+You are the elite.
+Share what you learned.
+Node started in GitHub generation.
+Invited to participate, contribute.
+You feel like Node is yours.
+Node community very responsive, lots of help.
+Good place to go when you want to make something.
+Why don't you just help?  We need you.
+What is the Node community?
+We want to see Node succeed.
+The way to do that is to help.
+Different than any other community.
+Willing to stop what they're doing and help you.
+Community versus enterprise Node.
+Approach things in a different way.
+How do we make everyone feel included?
+But it's okay for individuals to not be ready for a larger community experience.
+Still about making connections with people.
+Retrospective on Node community.
+We are facilitating diversity.
+The time it takes to support community is very demanding.
+Node project is very discussion focused.
+But people often don't have time to participate.
+Employers could carve out time to support sharing.
+Start small, internal communities.
+Lunch and learn, build bonds.
+There is this sense - other people get to do that.
+Nodeschool, Nodebots, attracts new people.
+Events pull people together.
+We need to do much more than that.
+Teacher training, workshops.
+Enable other teachers.
+Node is a worldwide project.
+How do you combine cultures/values so everyone feels welcome?
+Future of Node.
+You can be a mentor wherever you are in your knowledge/understanding.
+Someone will be extremely grateful for your help.
+That is one of the most rewarding things in life.
+Be excited and welcome other people too.
+
+
