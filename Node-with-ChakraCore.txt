@@ -1,0 +1,65 @@
+NodeSummit, San Francisco, CA, Wed 27 Jul 2016
+
+The Story of Node.js with ChakraCore
+
+Arunesh Chandra
+Senior Program Manager ChakraCore, Microsoft
+@AruneshC
+
+Node with ChakraCore.
+Born out of necessity a year ago.
+Help grow Node ecosystem.
+Be completely open and contribute.
+Chakrashim.
+Submit a PR to Node mainline.
+Maintained against current.
+VM neutrality.
+Node core as agnostic to JavaScript engine.
+Build Node core on VM neutral APIs.
+Today, very deeply tied to V8 engine.
+Ripple effect through entire ecosystem.
+VM neutrality will help grow the ecosystem.
+Will keep ecosystem happier.
+Less breakage if APIs in place.
+VM summit held earlier this month.
+Broad agreement about VM neutrality, good for Node.
+IBM and Microsoft working on advancement of VM neutrality APIs.
+Node modules node-gyp dependent (native) 10%, versus pure JavaScript 90%.
+Look for popular native modules.
+Abstract shim based on that.
+Tedious and painful.
+Performance is another area of focus for ChakraCore.
+ChakraCore outperforms Chrome, Firefox.
+Make debugging awesome.
+JSRT debugging capabilities in ChakraCore.
+Debug surface.
+Shaping to match V8 not sufficient.
+No standard way for debuggers to work.
+Investigating that as well.
+Figure out how to make more standard.
+More formal contract.
+With room for innovation.
+Time travel debugger (TTD).
+TDD uses circular buffer, configurable.
+Demo -- TTD with ChakraCore on VS Code.
+  - Web app fails.
+  - Run app using trace.
+  - Replay steps at breakpoint.
+  - Entire context available.
+  - 'Step back' button.
+Currently available in VS Code.
+Available as preview, soon on main.
+Open sourced ChakraCore.
+Announcing today, ChakraCore is available on Linux and OS X.
+Early step, only tested on latest Ubuntu LTS.
+Should support other Linux distros.
+Demo -- VS Code debugging Node ChakraCore on Linux.
+Node ChakraCore helping ecosystem.
+Bringing fresh ideas.
+Cross-platform support.
+Roadmap:
+  - Enable JIT compiler.
+  - High performance GC.
+  - Chrome debugging protocol.
+  - TTD support.
+  - VM neutral APIs.
