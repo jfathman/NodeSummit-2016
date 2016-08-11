@@ -1,0 +1,57 @@
+NodeSummit, San Francisco, CA, Wed 27 Jul 2016
+
+Containers, Microservices, Node.js
+
+Jacob Groundwater, Engineering Manager, New Relic
+@0x604
+
+Justin Beckwith, Product Manager, Google
+@JustinBeckwith
+
+Tim Gross, Product Manager, Joyent
+@0x74696d
+
+Naresh Sikha, Enterprise Architect, StubHub
+
+Are things getting too complicated?
+Don't try to eat the whole thing on day one.
+Get more sophisticated over time.
+Microservices is a technical solution to a cultural problem.
+Google has been using containers for years, they just weren't Docker containers.
+Tooling.
+Layered infrastructure, incremental.
+Docker solves the 'it works on my machine' problem.
+Containerizing a codebase you understand first is a good way.
+Be honest about issues that will occur.
+Cognitive load and deciding how far to go.
+Container has to live in broader context.
+Uber switching from PostgreSQL to MySQL.
+Motivation, devs don't understand failover at app level.
+Need uptime plan for routing (Google).
+Need common exception handling, common logging (New Relic).
+At Google, every request is tracked by unique ID assigned by the load balancer.
+Propagate ID throughout infrastructure.
+Using gRPC to communicate at Google.
+Google already has rich lib support for this.
+At Joyent:
+  - Infrastructure team provides base layer.
+  - App team adds app layer.
+  - Monitoring team adds monitoring layer.
+A monolithic deploy of microservices hasn't really changed anything.
+How do we test the stack as a whole?
+No generic tools for doing this.
+Netflix uses fault injection testing.
+Curated test environments, white gloves.
+Lots of people take database out of containers.
+Lots of container infrastructures have terrible I/O.
+Model a lot of people have come up with, over the network, block storage.
+But new set of failure modes.
+Architecture - does app need to be aware of replication?
+Replication at block layer opens up Byzantine failure modes.
+But it gets it working at app level.
+Avoids costs of expensive replication hardware.
+Assume things will go down.
+Five nines times several times degrades overall SLA.
+Problem isn't services with low reliability, because you expect it, code around it.
+Race failures are the problem.
+
