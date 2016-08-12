@@ -1,0 +1,60 @@
+NodeSummit, San Francisco, CA, Wed 27 Jul 2016
+
+Leveraging Node.js Across the IoT Landscape
+
+Ben Sabrin, VP Sales and Strategy, NodeSource
+@bsabrin
+
+David Belo, Technical Lead, McLaren Applied Technology
+@McLarenGroup
+
+Jeremiah Lee, Web API Technical Product Owner, Fitbit
+@JeremiahLee
+
+Jeremy Schroetter, Senior Director Engineering, Qualcomm Life
+@qualcommlife
+
+Matteo Collina, Software Architect, nearForm
+@matteocollina
+
+IoT is convergence between physical and virtual worlds.
+Translate into insights with benefits.
+Low power devices, network connected.
+Help people improve health through technology.
+Take data, and help people make life changing decisions.
+IoMT, Internet of Medical Things, Qualcomm.
+Why Node?
+Qualcomm trying to be underpinning of IoMT.
+Providing services underneath.
+Let Qualcomm provide connections for data provided by Node.
+Evaluated other options, Node is the winner for the use cases presented with.
+Where Node works really well is services.
+Node is amazing for bringing multiple APIs together.
+Node is resource hungry, won't run on wearables.
+Node can play huge part as gateway.
+Industrial IoT, lots of collaboration among companies that did not collaborate before.
+When lights are on, day getting started, auto adjust heating/cooling.
+Need prototypes, iterative to do this, so Node.
+IoT security.
+Healthcare data, HIPAA.
+Qualcomm refactoring platform.
+Speed and performance of Node for rapid prototyping and data transformation.
+More use cases will come in healthcare.
+Node security vulnerabilities not really different than Java.
+Security problems boil down to OpenSSL and SSL attacks.
+Managing SSL certificates adds whole new level of complexity to IoT.
+Biggest problem is updating Node on IoT devices for security upgrade.
+Pick most secure ciphers you can, since may not update in field for years.
+Sensors and wearables versus industrial IoT.
+Seeing device operations move to the edge.
+Let device do sensing, send data right now, let cloud process it.
+Due to battery life, unlikely to see Node run on tiny devices.
+Industrial IoT, there's a gold mine there.
+As a business, how to make sense of all that data.
+Which npm modules do you rely on in IoT context? MQTT, Johnny-Five, gpio, etc.
+For healthcare, FHIR is replacing HL7.
+Data transformation modules.
+New FDA attitude, don't let us get in the way of innovation.
+Will continue in positive way.
+Elastic, Kibana.
+Node needs to integrate with scientific languages.
