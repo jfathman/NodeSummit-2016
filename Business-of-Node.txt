@@ -3,7 +3,7 @@ NodeSummit, San Francisco, CA, Wed 27 Jul 2016
 Joe McCann, CEO, NodeSource
 @joemccann
 
-NodeSource nterprise Node.js.
+NodeSource enterprise Node.js.
 Most core contributors.
 Paying people to work on Node.
 NSolid, Node plus services around it.
