@@ -1,0 +1,28 @@
+NodeSummit, San Francisco, CA, Wed 27 Jul 2016
+
+Node.js Everywhere
+
+Mikeal Rogers, Community Manager, Node.js Foundation
+@mikeal
+
+Node.js is fastest growing open source platform in the world.
+More than 300K modules.
+Nobody wants to write all their code from scratch.
+400 new packages every day.
+4.5 million users, 100% growth per year.
+At any time, half the users just used Node this year.
+Why is Node so popular?
+Thinking in terms of verticals not accurate.
+Web, API, IoT, desktop, only Node ties all this stuff together well.
+Apache Cordova, Node.js mobile.
+Desktop apps with Node.js was a surprise.
+Slack, Visual Studio.
+IoT devices, great IoT community since day one.
+Node didn't run on device itself originally.
+But now, has Node on the device, Raspberry Pi, Beaglebone.
+APIs and microservices.
+Serverless, Node is supported, first supported language or only supported language.
+Barrier to entry getting lower.
+Node comes into these places.
+We make programming environments accessible.
+

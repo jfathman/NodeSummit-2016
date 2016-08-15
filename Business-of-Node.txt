@@ -1,0 +1,48 @@
+NodeSummit, San Francisco, CA, Wed 27 Jul 2016
+
+Joe McCann, CEO, NodeSource
+@joemccann
+
+NodeSource nterprise Node.js.
+Most core contributors.
+Paying people to work on Node.
+NSolid, Node plus services around it.
+Why use Node.js?
+  - Innovation
+  - Productivity
+  - Developer joy
+  - Hiring/retaining talent, we do Node here
+  - Cost savings
+Desire for agility.
+Every company is a technology company now.
+Patterns being used:
+  - Frontend/backend
+  - API proxy to legacy systems
+  - Containers/Kubernetes
+  - Microservices
+  - Functions as a service, serverless
+  - Conversational/messaging apps, bots
+AWS lambda, half are written in Node.
+Success stories with Node.
+GoPro, hardware/media company:
+  - Docker and Node.js
+  - Deploy hundreds of times per day
+  - New developers push to production their first day
+NASA
+CapitalOne:
+  - Thousands of developers
+  - Node, lack of context switching front-end/back-end
+  - 5000 developers using Node
+Intuit:
+  - Can't rip and replace monolith
+  - Piece by piece improvement
+  - Move quickly, but satisfy users
+Where is Node headed?
+electron.io early adopters.
+Will see many more apps written with electron.
+Investment banking space.
+npm
+Hardware, Intel Edison, Tessel.
+Still trying to tease out IoT, Node will follow.
+NodeSource, innovating the commercial space.
+
