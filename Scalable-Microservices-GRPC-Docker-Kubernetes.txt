@@ -1,0 +1,62 @@
+NodeSummit, San Francisco, CA, Wed 27 Jul 2016
+
+Scalable Microservices, IoT, Mobile and more with GRPC, Docker, and Kubernetes
+
+Sandeep Dinesh, Developer Advocate, Google
+@sandeepdinesh
+
+Microservices.
+Each piece does one thing well.
+Compose for entire app.
+Why microservices?
+How microservices?
+Automate infrastructure.
+Systems to support Gmail (microservices at Google).
+Not one big app, lots of pieces.
+Google contributed cgroups to the Linux kernel.
+Two billion containers per week launched at Google.
+Everything runs in containers.
+Tooling to deploy containers, Kubernetes.
+Google had this problem then.
+Everyone has this problem now.
+Kubernetes implemented in Go, on GitHub.
+Contributors include Red Hat.
+GRPC is used by Docker Swarm.
+Kubernetes - container orchestration.
+Pod is one or more Docker containers.
+Always move around together.
+Service load balances to pods in cluster.
+That becomes a microservice in Kubernetes.
+Scale up and down, rolling update.
+Load balancer built in to send ~1% of traffic to test version of app.
+Without NGINX or Apache config.
+What about communication?
+What was a function call became a network call.
+Performance impact.
+Need fundamental shift in how you build apps.
+GRPC.
+Really cool thing.
+Didn't like it at first.
+Grown to love it.
+Protocol Buffers for serialization format.
+IDL
+Write API in this format.
+Define API, defines data model.
+Efficient on the wire.
+HTTP/2 makes the magic possible.
+Built for speed in Chrome, then standardized.
+Made for browser, works great on backend.
+Single socket, multiplexed, HTTP/2.
+Asynchronous.
+Bidirectional streaming, used heavily by GRPC.
+Protocol supports flow control.
+GRPC supports Nnode, Go, Java, PHP, Python, C/C++.
+GRPC client feels like the language.
+Mobile first.
+Low bandwidth.
+Kubernetes update deployment live, zero downtime deploy.
+No ssh into servers, just interact with Kubernetes.
+Google Container Engine.
+https://gcp-slack.appspot.com/
+grpc.io
+
