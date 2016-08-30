@@ -1,0 +1,44 @@
+NodeSummit, San Francisco, CA, Wed 27 Jul 2016
+
+Node.js Releases, How do they Work
+
+Myles Borins, Node.js Collaborator, IBM
+@thealphanerd
+
+Versions are a lot like magnets.
+People are confused about how they work.
+semver
+  major.minor.patch
+patch
+  does not add features, does not change behavior.
+minor
+  introduces new behavior.
+major
+  breaking change.
+Node current 6.3.1, LTS 4.4.7, maint LTS 10.x.x.
+Originally, Node even was stable, odd was unstable.
+But 0.12.0 took a really long time to come out.
+Dec 2014, forked to io.js.
+Feb 2014, 0.12.0 released.
+v1 to v3 were part of io.js project.
+Sep 2015, Node put into a foundation.
+Merged into version 4.
+Oct 2016, Node 6 will enter active LTS.
+Active LTS for 18 months until Apr 2018, then maintenance for 12 months.
+Overall, 30 months as LTS.
+Maintenance LTS gets security fixes only.
+What happened to 'stable'?  Changed name to 'current'.
+How do we manage this?
+GitHub
+We maintain release branches.
+When ready for release, branch off of v6.x.
+Staging branches for LTS.
+v4.x-staging, used to stage changes as they are audited.
+All changes must be in a release for a week before they are back-ported.
+Using GitHub lables to pick commits.
+Release tools: branch-diff, changelog-maker, scripts.
+What's a breaking change?
+Test across all OS's, platforms.
+Something breaks on only one, in strange ways.
+Smoke testing saved the day.
+
