@@ -35,7 +35,7 @@ When ready for release, branch off of v6.x.
 Staging branches for LTS.
 v4.x-staging, used to stage changes as they are audited.
 All changes must be in a release for a week before they are back-ported.
-Using GitHub lables to pick commits.
+Using GitHub labels to pick commits.
 Release tools: branch-diff, changelog-maker, scripts.
 What's a breaking change?
 Test across all OS's, platforms.
