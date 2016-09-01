@@ -1,0 +1,49 @@
+NodeSummit, San Francisco, CA, Thu 28 Jul 2016
+
+Michael Dawson, Senior Software Developer, IBM
+Node.js collaborator, CTC member
+@mhdawson1
+
+Interested in IoT, CTI, and small apps.
+Using RPi as bridge to HTTP.
+Distributed team, spending lots of time on phone.
+Use API on Cisco phone.
+Solution - Node.js.
+SPA, single page application.
+Node.js server.
+Presentation in browser.
+Remotely accessible.
+Deploy to cloud.
+Use Node on phone, browser, desktop.
+GitHub mhdawson micro-app-framework.
+Config, authentication, encryption (SSL), templates, popups.
+MQTT server, data streaming from sensors.
+serverjs, connect to MQTT server.
+Used to create several micro-apps.
+Motion alarm takes picture, sends SMS message.
+But browser bar is annoying.
+For security, browsers force keeping that.
+Prompt to allow popups is annoying.
+Have to remember URLs.
+Solution - Electron.io.
+No popups.
+No browser bar.
+Position on startup.
+No URL to remember.
+Binary package possible.
+GitHub mhdawson micro-app-electron-launcher.
+Auto open all micro apps.
+Can ignore certificate errors in code.
+Does not require much code to convert web app to desktop app.
+Apache Cordova, mobile solution, uses Node.js.
+Looks very native.
+Cross-platform mobile apps.
+A little more work than electron since take it all the way to APK.
+Lots of Cordova is written in Java.
+Can intercept and ack the certificate warning.
+Not much code needed for mobile app.
+Where to deploy micro-app server?
+IBM Bluemix.
+Use face recognition to not alarm when particular people come in.
+Use face recognition from Watson.
+Twilio for SMS.
