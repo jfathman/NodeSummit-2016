@@ -1,5 +1,7 @@
 NodeSummit, San Francisco, CA, Thu 28 Jul 2016
 
+Micro-Apps with Node.js, Browsers, Phones (Cordova), and Electron
+
 Michael Dawson, Senior Software Developer, IBM
 Node.js collaborator, CTC member
 @mhdawson1
