@@ -1,0 +1,87 @@
+NodeSummit, San Francisco, CA, Thu 28 Jul 2016
+
+Evolution of JavaScript
+
+Chris Saint-Amant, Director, UI Engineering, Netflix
+@csaintamant
+
+Brandon Cannaday, CPO, Losant
+@TheReddest
+
+Stephen Fluin, Developer Advocate, Google
+@stephenfluin
+
+Ben Ilegbodu, Senior UI Engineer, Eventbrite
+@benmvp
+
+Amanda Silver, Director of Program Management, Microsoft
+@amandaksilver
+
+The JavaScript VM is ubiquitous, it's everywhere.
+JavaScript is the basis of a new programming generation.
+Legacy codebase is a challenge.
+Difficult to bring that codebase forward.
+Eventbrite moving to React.
+Really like the spread operator in ES6.
+Variable hoisting has been fixed in ES6.
+Harder to get started on so many pieces.
+Bringing JavaScript to IoT.
+Flexibility of JavaScript is a blessing and a curse.
+How is JavaScript evolving to handle large scale apps?
+At Microsoft, thousands of developers working on codebase.
+Needed to code in JavaScript, were using C# to JavaScript transpiler.
+Weren't really programming in performant JavaScript.
+So started working on TypeScript to handle large codebases.
+Lots of angry developers using Angular 1.
+At 100k lines of code, start having new problems.
+So split Angular into set of modules.
+Decoupled from DOM.
+Can ship app without touching DOM.
+Eventbrite building new apps on React before migrating legacy apps.
+Learn spirit of React first.
+Process of migrating apps is getting better.
+Unit tests backing it.
+May not be able to read the old code, but can test it.
+Hard to justify rewriting existing app for a year, need new features.
+Must pay technical debt to move the platform forward.
+JavaScript is an invasive species.  You can't kill it.
+Starting to see JavaScript on microcontrollers.
+JerryScript, lightweight VM, adopted a Node core API runtime.
+Espruino, interpreted on chip.
+Early to tell if JavaScript will stick there, indications are it will.
+Shared idea.
+It will run on this shared idea (JavaScript, Node).
+Mobile challenge is JavaScript resource.
+Best experience with small amounts.
+Avoid huge bundle delivered on every app.
+Mobile framework can help here.
+Part of our job, the framework.
+Chakra engine optimization guided by most common patterns used by developers.
+Dimensions we really think about.
+People choosing to develop mobile in JavaScript, because can push dynamic content updates, unlike native via store.
+We have so many transpiled languages out there because the JavaScript VM is ubiquitous.
+There is no one JavaScript.
+Every VM is different.
+Shims hide VM compatibility issues, takes away the pain.
+Community got used to polyfills so can always adopt the latest stuff.
+ES6 fixed a lot of things we struggled with in ES5, so which do you teach?
+Do you still need to know the old gotchas?
+Linters as an education path.
+Node.js has never been the most debuggable runtime.
+Can Node Chakra achieve the C# debugger experience?
+Goal is for Microsoft toolchain to work with multiple JavaScript VMs.
+Brought time-travel debugging to Node.
+Can use in production environment.
+Try to have tests with good fidelity to what devs actually write.
+async/await versus generators.
+async/await is a very useful pattern.
+Generators are not a substitute for async/await.
+Compilation could be slower, so took time to implement in TypeScript.
+Future of TypeScript versus Babel.
+TypeScript is intended to support very large applications.
+Babel is more about making features available now.
+TypeScript gets requests to make the future available now, like Babel.
+We (Microsoft) will probably do that.
+TypeScript had classes before ES6.
+TypeScript is open, anyone can fork and improve.
+TypeScript must adhere to ECMAScript standard as it evolves, Microsoft is committed to doing so.
