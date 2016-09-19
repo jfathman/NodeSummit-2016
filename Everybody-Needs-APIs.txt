@@ -1,0 +1,53 @@
+NodeSummit, San Francisco, CA, Thu 28 Jul 2016
+
+Everybody Needs APIs
+
+Theo Schlossnagle, CEO & Founder, Circonus
+@postwait
+
+Chandra Dharap, Program Director, IBM
+
+Jeremiah Lee, Web API Technical Product Owner, Fitbit
+@JeremiahLee
+
+Charlie Ozinga, Senior Software Engineer, Cloud Elements
+@cloudelements
+
+OS API hasn't changed in ten years.
+Node API changes every month.
+How to navigate that change?
+API is a poor acronym for what we are doing (REST API).
+Impact of change to API depends on number of users.
+If huge user base, huge impact on developers.
+Motivation for bumping API V1 to V2 to V3 is bad initial design.
+But a good design can suffer due to new demands from organization.
+API developers dictate without acting as consumers.
+Need to drive more from consumer's need.
+Developer driven APIs often fail, lead to V2, V3.
+Don't just assume it is another engineer consuming the API.
+Sometimes devs put in API for testing, then ship it as product.
+APIs expose internals.
+Hackers will try to inject garbage.
+Node allows devs to build highly concurrent systems.
+Microservices bring complexity, queuing.
+How do these come together?
+Cognitive load, complexity, tire fire.
+You have product design, app design, you need a team design.
+But that is an idealistic view.
+Building team, knowledge, extremely hard.
+Many Node devs don't understand how Node works.
+Education problem.
+Bitterness of reality, can't always do the new thing.
+Engineers, divide and conquer.
+But what is the cost of making everything distributed?
+PayPal doesn't do a lot of microservices.
+Still in investigation phase.
+What will be solved?
+The negative aspects of REST are consistently underestimated.
+REST for REST's sake.
+How often do you write API calls?
+Usually not that many.
+So RPC not so bad versus REST.
+
+
+
