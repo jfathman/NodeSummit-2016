@@ -1,0 +1,23 @@
+NodeSummit, San Francisco, CA, Thu 28 Jul 2016
+
+Getting to Green: Node.js Core Testing
+
+Rich Trott, Director of the Center for Knowledge Management, UC San Francisco
+Node Core Technical Committee
+@trott
+
+In Node project, number one cause of test flakiness is timers, setTimeout().
+Timers are not guaranteed to fire at specific time.
+Test might be reliable on OS X, but not on another OS.
+Some Linux distros have variant IPv6 config and behaviors.
+localhost is not defined on IPv6, ::1 is IPv6 localhost address.
+Took six months to get CI green for Node.
+Especially flaky on Windows.
+https://github.com/nodejs/build
+Understaffed, volunteers.
+Need OS X servers for test.
+Test coverage.
+https://node-core-coverage.addaleax.net/
+Great way to get involved in Node core.
+Best shape we've ever been in for test.
+But lots of work to be done.
