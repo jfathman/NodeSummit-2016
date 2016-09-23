@@ -1,0 +1,96 @@
+NodeSummit, San Francisco, CA, Thu 28 Jul 2016
+
+Prototyping in Node.js
+
+Jacob Groundwater, Engineering Manager, New Relic
+@0x604
+
+Using Node, doing product research.
+  - First horizon - shipping product.
+  - Second horizon - what working on.
+  - Third horizon - what comes after.
+The Lean Startup.
+Product research team, building prototypes, trying new stuff.
+You will build the wrong product, this is why products flop.
+You will build the product wrong, reasons why:
+  - Little decisions skew product in some other direction.
+  - Tightening bolts, pieces don't match up.
+  - Adjust, adjust, adjust.
+Prototypes help build the right product and build the right product well.
+Prototype isn't always a throw-away.
+Prototype is kernel around which to build real product, a guidewire.
+Prototype can tell you not to build something, that has value.
+Anti-prove something.
+A product solves a real, immediate human need.
+Technologies are platforms that provide a competitive advantage.
+What problem are you trying to solve?
+  - Unconscious incompetence
+  - Conscious incompetence
+  - Unconsious competence
+  - Conscious competence
+Know where you are.
+MTBDTC - Mean Time Between Demos To CEO.
+Real data changes everything.
+Experimental approach.
+Choose high value goal obstructed by big problem.
+If there is no existing solution, it is not a problem.
+Look for problem not being served well.
+Prototypes answer questions.
+Know your primitives.
+Know lots of tools.
+Know your goals.
+Without goals, you will follow the grain of the platform.
+Forbidden phrases:
+  - This way will be more efficient.
+  - We're going to do it right.
+  - We don't want to waste the engineer's time.
+Do's:
+  - Build around user experience.
+  - Repeat yourself.
+  - Build for one answer at a time.
+  - Leverage cheap compute.
+Do not's:
+  - Refactor and deduplicate.
+  - Optimize around storage/CPU/memory.
+  - Be afraid of writing something that gets thrown away.
+npm
+  - Pay them $7/month.
+  - Everything is on npm.
+  - Small and composable.
+  - Search is so-so.
+  - Ask on Twitter, search GitHub.
+  - Okay to have lots of dependencies.
+LevelDB
+xterm.js and pty.js
+electron.io and Chrome plug-ins.
+Know your protocols:
+  - TCP
+  - HTTP, just use it.
+  - Node supports bidirectional sockets (HTTP).
+  - Chunked encoding for streaming.
+  - TLS
+  - Self-signing is fine for your own datacenter.
+  - HTTP2 supports multiplexed HTTP.
+  - Remember HTTP also supports raw sockets.
+  - DNS
+  - JSON is pretty good.
+  - gzip compresses JSON well.
+Node is the proxy champion.
+Proxy everything.
+Works best with pull architectures.
+Know *nix essentials:
+  - parent_child (spawn)
+  - signals
+  - kill -9
+  - file descriptors
+  - fifos
+  - unix domain sockets
+  - bash
+  - ttys are a total mess
+  - but use tty for prototypes
+Transpilation.
+Let people run other logic on your system.
+Text to AST to JS.
+Safety, Node V8, all I/O is from proxied C++ layer, libuv.
+Use Docker a lot.
+Get prototype to production behind a feature flag, rallies everyone.
