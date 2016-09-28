@@ -1,0 +1,73 @@
+NodeSummit, San Francisco, CA, Thu 28 Jul 2016
+
+JavaScript's Current and Future Role in IoT
+
+Brandon Cannaday, CPO, Losant
+@TheReddest
+
+IoT.
+Everything will be connected.
+50B connected devices by 2020.
+Correlation does not imply causation.
+One percent rule.
+Compute is added when < 1 % of product cost.
+Disposable compute, essentially free.
+IoT languages, Java, C, JavaScript, Python, C++.
+JavaScript all the way down.
+Espruino interprets JavaScript code on chip.
+Samsung JerryScript compiles JavaScript to bytecode for better performance.
+Flasher.js.
+Espruino starting to see community growth.
+Espruino web IDE, Chrome add-on.
+REPL over serial to device.
+Supports setInterval().
+Much simpler than C equivalent.
+Can get better performance than hand-crafted C code.
+All the asynch benefits of Node/JavaScript architecture.
+Automatic power management.
+Extended compute model, JavaScript dominates.
+Firmata protocol, based on MIDI.
+Johnny-Five.
+Arduino.
+Why extended compute?
+Easy, easy, easy.
+Compute modules: Raspberry Pi, Intel Edison, Tessel2.
+Node.js first.
+Lots of Python at this layer.
+Intel Edison, OTA updates.
+Precision increases closer to chip.
+Linux, Node GC, non-deterministic timing.
+Embedded JavaScript not mature yet.
+Not used in production.
+But experiment with it.
+Embedded JavaScript needs community.
+Server-side IoT is built on Node.
+Mosca MQTT broker.
+Noble package for Bluetooth on Node (Sandeep Mistry).
+Node-Red.
+IoT payloads similar to web.
+Async, event loop, scaling.
+The future is standards.
+IoT is like the Internet before web.
+Need free and standardized way to exchange data between disparate connected devices.
+Need two standards:
+  - Device to cloud, the wild west.
+  - Cloud to cloud, solved, REST, JSON.
+MQTT, HTTP, CoAP, STOMP.
+Two prominent surfacing:
+  MQTT
+    - Bidirectional pub/sub, lightweight.
+    - Good for device to device.
+  WebSockets
+    - Heavier, overhead of HTTP.
+    - Good for device to cloud.
+    - Broad support.
+    - No concept of pub/sub, add yourself.
+Mosca MQTT, pluggable pub/sub and data stores.
+Bold claims for future:
+Linux and Node.js based compute modules will replace majority of microcontrollers.
+RPi Zero $5.
+NodeMCU $5.
+Omega2 $5, Linux with Wi-Fi.
+JSON all the way down.
+MQTT or HTTP?
