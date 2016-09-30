@@ -1,0 +1,27 @@
+NodeSummit, San Francisco, CA, Thu 28 Jul 2016
+
+Node.js at Scale
+
+Cian O Maidin, CEO, nearForm
+@Cianomaidin
+
+Reid Burke, Senior Software Engineer, Yahoo
+@reid
+
+Alex Grigoryan, Director Software Engineering, Application Platform, Walmart Labs
+@lexgrigoryan
+
+Doron Segal, Engineering Manager, OpenTable
+@segaldoron
+
+Yunong Xiao, Senior Software Engineer, Netflix
+@YunongX
+
+Within 3 months, 98 % of Walmart will be on Node and React.
+Walmart 10,000 requests per second across 2000 applications.
+Best tooling?  Metrics?  Scaling?
+Tracing on Linux, like DTrace?
+At Walmart, Node was the easy part.
+Level of maturity with microservices.
+Yahoo microservice version management so complex, not worth it sometimes.
+
